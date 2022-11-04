@@ -8,3 +8,6 @@ body {
     background-attachment: fixed;
     background-size: cover;
 }
+main {
+    margin-top: 3rem;
+}
