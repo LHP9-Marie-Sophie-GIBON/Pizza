@@ -26,4 +26,9 @@ main {
     transform: scale(1.1); 
     transition: 1s; 
 }
-    
+
+@media screen (min-width: 600px) {
+    main {
+        margin : auto; 
+    }
+}
