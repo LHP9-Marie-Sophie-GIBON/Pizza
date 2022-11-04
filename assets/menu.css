@@ -8,21 +8,3 @@ body {
     background-attachment: fixed;
     background-size: cover;
 }
-main {
-    height: 100vh;
-    
-}
-#qrcode {
-    margin-top: 6rem;
-}
- 
-#qrcode img{
-    width: 30em;
-    height: auto;
-}
-#qrcode:hover {
-    transform: scale(1.1); 
-    transition: 1s; 
-}
-
-
