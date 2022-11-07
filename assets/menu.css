@@ -10,6 +10,7 @@ body {
 }
 main {
     margin-top: 6rem;
+    height: auto;
 }
 
 .card {
@@ -17,6 +18,9 @@ main {
 }
 
 .nav {
+    --bs-bg-opacity: 0.9 
+}
+.navbar {
     --bs-bg-opacity: 0.9 
 }
 
