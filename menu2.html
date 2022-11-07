@@ -54,9 +54,17 @@
         </div>
     </nav>
 
-    <main class="container px-2 text-center ">
-        <div class="row mb-4 justify-content-center">   
-                <div class="col-sm mx-lg-3 mb-2 m-lg-0 card bg-dark text-white">
+
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active pt-5">
+            <div class="row m-5 mb-4 justify-content-center">   
+                <div class="col-sm-3 mx-lg-3 mb-2 m-lg-0 card bg-dark text-white">
                     <div class="card-header h5">Provençale</div>
                     <img src="img/provencale.webp" class="d-lg-block d-none card-img-top rounded" alt="...">
                     <div class="card-body">
@@ -73,7 +81,7 @@
                     </div>
 
                 </div>
-                <div class="col-sm mx-lg-3 mb-2 m-lg-0 card bg-dark text-white">
+                <div class="col-sm-3 mx-lg-3 mb-2 m-lg-0 card bg-dark text-white">
                     <div class="card-header h5">Tamaris</div>
                     <img src="img/Tamaris.png" class="d-lg-block d-none card-img-top rounded" alt="...">
                     <div class="card-body">
@@ -90,7 +98,7 @@
                     </div>
 
                 </div>
-                <div class="col-sm mx-lg-3 mb-2 m-lg-0 card bg-dark text-white">
+                <div class="col-sm-3 mx-lg-3 mb-2 m-lg-0 card bg-dark text-white">
                     <div class="card-header h5">Père Louis</div>
                     <img src="img/PèreLouis.png" class="d-lg-block d-none card-img-top rounded" alt="...">
                     <div class="card-body">
@@ -107,7 +115,12 @@
                     </div>
 
                 </div>
-                <div class="col-sm mx-lg-3 mb-2 m-lg-0 card bg-dark text-white">
+                
+        </div>
+          </div>
+          <div class="carousel-item pt-5">
+            <div class="row m-5 mb-4 justify-content-center">
+                <div class="col-sm-3 mx-lg-3 mb-2 m-lg-0 card bg-dark text-white">
                     <div class="card-header h5">Christina</div>
                     <img src="img/cristina.webp" class="d-lg-block d-none card-img-top rounded" alt="...">
                     <div class="card-body">
@@ -124,9 +137,7 @@
                     </div>
 
                 </div>
-        </div>
-        <div class="row mb-4 justify-content-center">
-                <div class="col-sm mx-lg-3 mb-2 m-lg-0 card bg-dark text-white">
+                <div class="col-sm-3 mx-lg-3 mb-2 m-lg-0 card bg-dark text-white">
                     <div class="card-header h5">Mar-Vivo</div>
                     <img src="img/Mar-vivo.jpg" class="d-lg-block d-none card-img-top rounded" alt="...">
                     <div class="card-body">
@@ -143,7 +154,7 @@
                     </div>
 
                 </div>
-                <div class="col-sm mx-lg-3 mb-2 m-lg-0 card bg-dark text-white">
+                <div class="col-sm-3 mx-lg-3 mb-2 m-lg-0 card bg-dark text-white">
                     <div class="card-header h5">St Mendrier</div>
                     <img src="img/StMendrier.png" class="d-lg-block d-none card-img-top rounded" alt="...">
                     <div class="card-body">
@@ -160,7 +171,11 @@
                     </div>
 
                 </div>
-                <div class="col-sm mx-lg-3 mb-2 m-lg-0 card bg-dark text-white">
+        </div>
+          </div>
+          <div class="carousel-item pt-5">
+            <div class="row m-5 mb-4 justify-content-center">
+                <div class="col-sm-3 mx-lg-3 mb-2 m-lg-0 card bg-dark text-white">
                     <div class="card-header h5">St jacques</div>
                     <img src="img/St jacques.jpg" class="d-lg-block d-none card-img-top rounded" alt="...">
                     <div class="card-body">
@@ -177,7 +192,7 @@
                     </div>
 
                 </div>
-                <div class="col-sm mx-lg-3 mb-2 m-lg-0 card bg-dark text-white">
+                <div class="col-sm-3 mx-lg-3 mb-2 m-lg-0 card bg-dark text-white">
                     <div class="card-header h5">Royale</div>
                     <img src="img/Royale.jpg" class="d-lg-block d-none card-img-top rounded" alt="...">
                     <div class="card-body">
@@ -194,8 +209,20 @@
                     </div>
 
                 </div>
+            </div>
+          </div>
         </div>
-    </main>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    
+
 
     <footer>
         <div class="footer fixed-bottom bg-dark p-2 text-white">

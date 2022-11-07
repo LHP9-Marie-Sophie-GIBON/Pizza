@@ -54,9 +54,16 @@
         </div>
     </nav>
 
-    <main class="container px-2 text-center ">
-        <div class="row mb-4 justify-content-center">
-                <div class="col-sm mx-lg-3 mb-2 m-lg-0 card bg-dark text-white" >
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active pt-5">
+            <div class="row m-5 mb-4 justify-content-center">
+                <div class="col-sm-3 mx-lg-3 mb-2 m-lg-0 card bg-dark text-white" >
                     <div class="card-header h5">Pastre</div>
                     <img src="img/pastre.png" class="d-lg-block d-none card-img-top rounded" alt="...">
                     <div class="card-body">
@@ -73,7 +80,7 @@
                     </div>
 
                 </div>
-                <div class="col-sm mx-lg-3 mb-2 m-lg-0 card bg-dark text-white" >
+                <div class="col-sm-3 mx-lg-3 mb-2 m-lg-0 card bg-dark text-white" >
                     <div class="card-header h5">Blanche</div>
                     <img src="img/blanche.jpg" class="d-lg-block d-none card-img-top rounded" alt="...">
                     <div class="card-body">
@@ -90,7 +97,7 @@
                     </div>
 
                 </div>
-                <div class="col-sm mx-lg-3 mb-2 m-lg-0 card bg-dark text-white" >
+                <div class="col-sm-3 mx-lg-3 mb-2 m-lg-0 card bg-dark text-white" >
                     <div class="card-header h5">Sanary</div>
                     <img src="img/Sanary.webp" class="d-lg-block d-none card-img-top rounded" alt="...">
                     <div class="card-body">
@@ -107,7 +114,12 @@
                     </div>
 
                 </div>
-                <div class="col-sm mx-lg-3 mb-2 m-lg-0 card bg-dark text-white" >
+                
+        </div>
+          </div>
+          <div class="carousel-item pt-5">
+            <div class="row m-5 mb-4 justify-content-center">
+                <div class="col-sm-3 mx-lg-3 mb-2 m-lg-0 card bg-dark text-white" >
                     <div class="card-header h5">Cabri</div>
                     <img src="img/GAOU.png" class="d-lg-block d-none card-img-top rounded" alt="...">
                     <div class="card-body">
@@ -122,10 +134,21 @@
                             <li class="dropdown-item text-white">Pizza GEANTE : 23.50€</li>
                         </ul>
                     </div>
-
                 </div>
+            </div>
+           
+          </div>
         </div>
-    </main>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+   
 
     <footer>
         <div class="footer fixed-bottom bg-dark p-2 text-white">
