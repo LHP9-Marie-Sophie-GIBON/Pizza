@@ -38,7 +38,9 @@ main {
     --bs-bg-opacity: 0.9
 }  
 
-    
+.dropdown-item:hover {
+    background-color: rgba(30, 30, 30, 0.317);
+}    
 
 .footer {
     --bs-bg-opacity: 0.9
