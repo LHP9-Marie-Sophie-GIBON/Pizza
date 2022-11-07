@@ -36,4 +36,7 @@ main {
     transition: 1s; 
 }
 
+.dropdown-item:hover {
+    background-color: rgba(30, 30, 30, 0.317);
+}  
 
