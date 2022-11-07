@@ -12,6 +12,16 @@ main {
     height: 100vh;
     
 }
+
+.nav {
+    --bs-bg-opacity: 0.9 
+}
+
+.footer {
+    --bs-bg-opacity: 0.9
+}
+
+
 #qrcode {
     margin-top: 6rem;
 }
