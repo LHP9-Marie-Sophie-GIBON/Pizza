@@ -13,7 +13,7 @@ main {
     
 }
 
-.nav {
+.navbar {
     --bs-bg-opacity: 0.9 
 }
 
@@ -21,15 +21,16 @@ main {
     --bs-bg-opacity: 0.9
 }
 
-
 #qrcode {
     margin-top: 6rem;
 }
  
 #qrcode img{
-    width: 30em;
+    width: 100%;
     height: auto;
 }
+
+
 #qrcode:hover {
     transform: scale(1.1); 
     transition: 1s; 
