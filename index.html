@@ -17,10 +17,10 @@
    <header>
       <nav class="navbar navbar-dark bg-dark fixed-top">
          <div class="container-fluid">
-            <a class="navbar-brand">Pizzeria La Case à Café</a>
+            <a class="navbar-brand">La Case à Café</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
-               <span class="navbar-toggler-icon"></span>
+               <img src="img/about.png" alt="">
             </button>
             <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
                aria-labelledby="offcanvasDarkNavbarLabel">
@@ -33,16 +33,21 @@
                </div>
                <div class="offcanvas-body">
                   <ul class="navbar-nav justify-content-end">
+                     <li class=" nav-item my-auto text-center text-secondary d-lg-block d-none">
+                        "La case à café" est une petite pizzéria située en plein coeur du quartier danton au Havre, à 10 minutes de la gare à pied.
+                        Crée par Marcel en 1989 puis agrandie en 1991 de par son succès. Elle fut reprise par Xavier et Laurent en 1997 puis par Enrique en 2015. 
+                        Conviviale, chaleureuse et acceuillante, la Case à café est un endroit où les étudiants, artistes en tout genre tout comme les personnes du quartier aiment s'y retrouver pour passer un moment agréable et sympa."
+                     </li>
                      <li class="nav-item">
                         <p>
-                           <span class="h6">Adresse :</span> 2 rue de Turenne, 76600 LE
+                           <span class="h6"><img src="img/location-pin.png" alt=""> Adresse :</span> 2 rue de Turenne, 76600 LE
                            HAVRE
                         </p>
                      </li>
+                    
                      <li class="nav-item dropdown h6 text-white">
                         <a class="nav-link dropdown-toggle " role="button" data-bs-toggle="dropdown"
-                           aria-expanded="false">
-                           Horaires
+                           aria-expanded="false"><img src="img/time.png" alt=""> Horaires
                         </a>
                         <ul class="dropdown-menu dropdown-menu-dark">
                            <li>
@@ -53,13 +58,9 @@
                         </ul>
                      </li>
                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown" data-bs-toggle="dropdown" role="button"><img src="img/mentions légales.png" alt=""> </a>
+                        <a class="nav-link dropdown" data-bs-toggle="dropdown" role="button"><img src="img/mentions légales.png" alt=""> Mentions légales</a>
                         <ul class="dropdown-menu bg-dark ">
-                            <li class="dropdown-item text-white"> Mentions légales</li>
                             <li class="dropdown-item text-secondary"> Ceci est un site internet factis</li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
                             <li class="dropdown-item text-secondary">Formation pro : Web Dev, LA MANU</li>
                         </ul>
                     </li>
@@ -71,10 +72,14 @@
    </header>
 
    <main class="row justify-content-end">
-         <div class="col-lg-4 my-auto text-center" id="qrcode">
-         <a href="menu.html"><img src="img/frame.png" class="d-lg-block d-none" alt="qrcode"></a>
-         <a href="menu.html"><img src="img/bouton menu.png" class="d-xl-none d-md-none" alt="menu"></a>
+         <div class="col-lg-2 my-auto text-center">
+            <img src="img/frame.png" class="d-lg-block d-none" alt="qrcode">
          </div>
+         <div class="col-lg-4 my-auto text-center">
+          <a href="menu.html"><img src="img/bouton menu.png" class="img-fluid" alt="menu"></a>  
+         </div>
+         
+         
    </main>
 
    <footer>
